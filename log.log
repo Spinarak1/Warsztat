@@ -1,0 +1,1814 @@
+2018-02-04 19:41:49 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-02-04 19:41:49 DEBUG ClassLoaderServiceImpl:124 - Incoming config yielded no classloaders; adding standard SE ones
+2018-02-04 19:41:50 DEBUG HibernatePersistenceProvider:98 - Located and parsed 1 persistence units; checking each
+2018-02-04 19:41:50 DEBUG HibernatePersistenceProvider:106 - Checking persistence-unit [name=hibernate-dynamic, explicit-provider=null] against incoming persistence unit name [hibernate-dynamic]
+2018-02-04 19:41:50 DEBUG ProviderChecker:96 - No PersistenceProvider explicitly requested, assuming Hibernate
+2018-02-04 19:41:50 DEBUG LogHelper:102 - PersistenceUnitInfo [
+	name: hibernate-dynamic
+	persistence provider classname: null
+	classloader: null
+	excludeUnlistedClasses: false
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/Users/patkrz2/Documents/STSJAVA/project1/target/classes/
+	Shared Cache Mode: null
+	Validation Mode: null
+	Jar files URLs []
+	Managed classes names [
+		Pracownik
+		Samochod
+		Usluga]
+	Mapping files names []
+	Properties [
+		javax.persistence.jdbc.driver: org.postgresql.Driver
+		javax.persistence.jdbc.password: yamahanovy513960519
+		javax.persistence.jdbc.url: jdbc:postgresql://localhost:5432/BazaTestowa
+		hibernate.dialect: org.hibernate.dialect.PostgreSQL82Dialect
+		hibernate.show_sql: true
+		hibernate.hbm2ddl.auto: create
+		hibernate.format_sql: false
+		javax.persistence.jdbc.user: postgres]
+2018-02-04 19:41:50 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2018-02-04 19:41:50 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2018-02-04 19:41:50 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2018-02-04 19:41:50 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.jpa.event.spi.JpaIntegrator].
+2018-02-04 19:41:50 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2018-02-04 19:41:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-02-04 19:41:50 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2018-02-04 19:41:50 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2018-02-04 19:41:50 DEBUG RegionFactoryInitiator:75 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2018-02-04 19:41:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-04 19:41:51 DEBUG ScanningCoordinator:271 - Unable to resolve class [Pracownik] named in persistence unit [file:/C:/Users/patkrz2/Documents/STSJAVA/project1/target/classes/]
+2018-02-04 19:41:51 DEBUG ScanningCoordinator:271 - Unable to resolve class [Samochod] named in persistence unit [file:/C:/Users/patkrz2/Documents/STSJAVA/project1/target/classes/]
+2018-02-04 19:41:51 DEBUG ScanningCoordinator:271 - Unable to resolve class [Usluga] named in persistence unit [file:/C:/Users/patkrz2/Documents/STSJAVA/project1/target/classes/]
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration boolean -> org.hibernate.type.BooleanType@23986957
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration boolean -> org.hibernate.type.BooleanType@23986957
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@23986957
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@60704c
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@23529fee
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration yes_no -> org.hibernate.type.YesNoType@184cf7cf
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration byte -> org.hibernate.type.ByteType@78e94dcf
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration byte -> org.hibernate.type.ByteType@78e94dcf
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@78e94dcf
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration character -> org.hibernate.type.CharacterType@60dcc9fe
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration char -> org.hibernate.type.CharacterType@60dcc9fe
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@60dcc9fe
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration short -> org.hibernate.type.ShortType@14d3bc22
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration short -> org.hibernate.type.ShortType@14d3bc22
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@14d3bc22
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration integer -> org.hibernate.type.IntegerType@45018215
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration int -> org.hibernate.type.IntegerType@45018215
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@45018215
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration long -> org.hibernate.type.LongType@29176cc1
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration long -> org.hibernate.type.LongType@29176cc1
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@29176cc1
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration float -> org.hibernate.type.FloatType@6ce139a4
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration float -> org.hibernate.type.FloatType@6ce139a4
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6ce139a4
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration double -> org.hibernate.type.DoubleType@309e345f
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration double -> org.hibernate.type.DoubleType@309e345f
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@309e345f
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@54c562f7
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@54c562f7
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@2f112965
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@2f112965
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration string -> org.hibernate.type.StringType@163e4e87
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.String -> org.hibernate.type.StringType@163e4e87
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@5276e6b0
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@78aab498
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration url -> org.hibernate.type.UrlType@12e61fe6
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@12e61fe6
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration Duration -> org.hibernate.type.DurationType@5e316c74
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@5e316c74
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration Instant -> org.hibernate.type.InstantType@65466a6a
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@65466a6a
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@4386f16
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@4386f16
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@460d0a57
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@460d0a57
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@6af93788
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@6af93788
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@1c93084c
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@1c93084c
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@5223e5ee
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@5223e5ee
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@48e4374
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@48e4374
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration date -> org.hibernate.type.DateType@3c130745
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@3c130745
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration time -> org.hibernate.type.TimeType@703580bf
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@703580bf
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration timestamp -> org.hibernate.type.TimestampType@70e8f8e
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@70e8f8e
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@70e8f8e
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@29626d54
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration calendar -> org.hibernate.type.CalendarType@4b0b0854
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4b0b0854
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4b0b0854
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@353d0772
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration locale -> org.hibernate.type.LocaleType@13e39c73
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@13e39c73
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration currency -> org.hibernate.type.CurrencyType@6580cfdd
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6580cfdd
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@48ae9b55
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@48ae9b55
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration class -> org.hibernate.type.ClassType@31d7b7bf
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@31d7b7bf
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@50a638b5
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@50a638b5
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@50b472aa
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration binary -> org.hibernate.type.BinaryType@4facf68f
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration byte[] -> org.hibernate.type.BinaryType@4facf68f
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration [B -> org.hibernate.type.BinaryType@4facf68f
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4f209819
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4f209819
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4f209819
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration image -> org.hibernate.type.ImageType@3daa422a
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration characters -> org.hibernate.type.CharArrayType@3d51f06e
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration char[] -> org.hibernate.type.CharArrayType@3d51f06e
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration [C -> org.hibernate.type.CharArrayType@3d51f06e
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@41fbdac4
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@41fbdac4
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@41fbdac4
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration text -> org.hibernate.type.TextType@2c767a52
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration ntext -> org.hibernate.type.NTextType@2ef3eef9
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration blob -> org.hibernate.type.BlobType@43195e57
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@43195e57
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@40ef3420
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration clob -> org.hibernate.type.ClobType@5e0826e7
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@5e0826e7
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration nclob -> org.hibernate.type.NClobType@4f18837a
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@4f18837a
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4f6ee6e4
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6b927fb
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration serializable -> org.hibernate.type.SerializableType@4cc451f2
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration object -> org.hibernate.type.ObjectType@52bf72b5
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@52bf72b5
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@dd8ba08
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@245b4bdc
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6c64cb25
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6ae5aa72
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@222545dc
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@5c5eefef
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@16293aa2
+2018-02-04 19:41:51 DEBUG BasicTypeRegistry:144 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@5158b42f
+2018-02-04 19:41:51 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-02-04 19:41:51 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/BazaTestowa]
+2018-02-04 19:41:51 INFO  connections:133 - HHH10001001: Connection properties: {user=postgres, password=yamahanovy513960519}
+2018-02-04 19:41:51 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2018-02-04 19:41:51 DEBUG DriverManagerConnectionProviderImpl:384 - Initializing Connection pool with 1 Connections
+2018-02-04 19:41:51 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-02-04 19:41:54 DEBUG JdbcEnvironmentInitiator:72 - Database ->
+       name : PostgreSQL
+    version : 10.1
+      major : 10
+      minor : 1
+2018-02-04 19:41:54 DEBUG JdbcEnvironmentInitiator:83 - Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.1.1
+      major : 42
+      minor : 1
+2018-02-04 19:41:54 DEBUG JdbcEnvironmentInitiator:389 - JDBC version : 4.2
+2018-02-04 19:41:54 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-02-04 19:41:54 DEBUG IdentifierHelperBuilder:112 - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2018-02-04 19:41:54 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-02-04 19:41:54 DEBUG BasicTypeRegistry:144 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@4dc27487
+2018-02-04 19:41:54 DEBUG BasicTypeRegistry:144 - Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@4dc27487
+2018-02-04 19:41:54 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@50a638b5
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2018-02-04 19:41:55 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2018-02-04 19:41:57 DEBUG Namespace:47 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2018-02-04 19:41:57 DEBUG AnnotationBinder:511 - Binding entity from annotated class: com.packt.project1.controller.Usluga
+2018-02-04 19:41:57 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2018-02-04 19:41:57 DEBUG EntityBinder:414 - Import with entity name Usluga
+2018-02-04 19:41:57 DEBUG EntityBinder:690 - Bind entity com.packt.project1.controller.Usluga on table Usluga
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Usluga), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property id with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Usluga:id]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for id
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property id
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Usluga), mappingColumn=dataPrzyjecia, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property dataPrzyjecia with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Usluga:dataPrzyjecia]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for dataPrzyjecia
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property dataPrzyjecia
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Usluga), mappingColumn=dataZakonczenia, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property dataZakonczenia with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Usluga:dataZakonczenia]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for dataZakonczenia
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property dataZakonczenia
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Usluga), mappingColumn=klient, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property klient
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Usluga), mappingColumn=kwota, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property kwota with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Usluga:kwota]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for kwota
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property kwota
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Usluga), mappingColumn=opis, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property opis with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Usluga:opis]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for opis
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property opis
+2018-02-04 19:41:58 DEBUG AnnotationBinder:511 - Binding entity from annotated class: com.packt.project1.controller.Klient
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2018-02-04 19:41:58 DEBUG EntityBinder:414 - Import with entity name Klient
+2018-02-04 19:41:58 DEBUG EntityBinder:690 - Bind entity com.packt.project1.controller.Klient on table Klient
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Klient), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property id with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Klient:id]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for id
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property id
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Klient), mappingColumn=adres, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property adres with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Klient:adres]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for adres
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property adres
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Klient), mappingColumn=imie, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property imie with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Klient:imie]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for imie
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property imie
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Klient), mappingColumn=nazwisko, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property nazwisko with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Klient:nazwisko]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for nazwisko
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property nazwisko
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Klient), mappingColumn=telefon, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property telefon with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Klient:telefon]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for telefon
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property telefon
+2018-02-04 19:41:58 DEBUG AnnotationBinder:511 - Binding entity from annotated class: com.packt.project1.controller.Czynnosc
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2018-02-04 19:41:58 DEBUG EntityBinder:414 - Import with entity name Czynnosc
+2018-02-04 19:41:58 DEBUG EntityBinder:690 - Bind entity com.packt.project1.controller.Czynnosc on table Czynnosc
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Czynnosc), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property id with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Czynnosc:id]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for id
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property id
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Czynnosc), mappingColumn=kwota, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property kwota with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Czynnosc:kwota]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for kwota
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property kwota
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Czynnosc), mappingColumn=opis, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:174 - MetadataSourceProcessor property opis with lazy=false
+2018-02-04 19:41:58 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [com.packt.project1.controller.Czynnosc:opis]
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:395 - building SimpleValue for opis
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property opis
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+2018-02-04 19:41:58 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Czynnosc), mappingColumn=usluga, insertable=true, updatable=true, unique=false}
+2018-02-04 19:41:58 DEBUG PropertyBinder:265 - Building property usluga
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for id
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for dataPrzyjecia
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for dataZakonczenia
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for kwota
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for opis
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for id
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for adres
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for imie
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for nazwisko
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for telefon
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for id
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for kwota
+2018-02-04 19:41:58 DEBUG SimpleValueBinder:437 - Starting fillSimpleValue for opis
+2018-02-04 19:41:58 DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [usluga]
+2018-02-04 19:41:58 DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [klient]
+2018-02-04 19:41:58 DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [czynnosc]
+2018-02-04 19:41:58 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: com.packt.project1.controller.Usluga
+2018-02-04 19:41:58 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: com.packt.project1.controller.Klient
+2018-02-04 19:41:58 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: com.packt.project1.controller.Usluga
+2018-02-04 19:41:58 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: com.packt.project1.controller.Klient
+2018-02-04 19:41:59 DEBUG SessionFactoryImpl:197 - Building session factory
+2018-02-04 19:41:59 DEBUG Settings:69 - SessionFactory name : null
+2018-02-04 19:41:59 DEBUG Settings:70 - Automatic flush during beforeCompletion(): enabled
+2018-02-04 19:41:59 DEBUG Settings:71 - Automatic session close at end of transaction: disabled
+2018-02-04 19:41:59 DEBUG Settings:73 - Statistics: disabled
+2018-02-04 19:41:59 DEBUG Settings:75 - Deleted entity synthetic identifier rollback: disabled
+2018-02-04 19:41:59 DEBUG Settings:76 - Default entity-mode: pojo
+2018-02-04 19:41:59 DEBUG Settings:77 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2018-02-04 19:41:59 DEBUG Settings:78 - Allow initialization of lazy state outside session : disabled
+2018-02-04 19:41:59 DEBUG Settings:80 - Using BatchFetchStyle : LEGACY
+2018-02-04 19:41:59 DEBUG Settings:81 - Default batch fetch size: -1
+2018-02-04 19:41:59 DEBUG Settings:82 - Maximum outer join fetch depth: null
+2018-02-04 19:41:59 DEBUG Settings:83 - Default null ordering: NONE
+2018-02-04 19:41:59 DEBUG Settings:84 - Order SQL updates by primary key: disabled
+2018-02-04 19:41:59 DEBUG Settings:85 - Order SQL inserts for batching: disabled
+2018-02-04 19:41:59 DEBUG Settings:87 - multi-tenancy strategy : NONE
+2018-02-04 19:41:59 DEBUG Settings:89 - JTA Track by Thread: enabled
+2018-02-04 19:41:59 DEBUG Settings:91 - Query language substitutions: {}
+2018-02-04 19:41:59 DEBUG Settings:92 - JPA query language strict compliance: disabled
+2018-02-04 19:41:59 DEBUG Settings:93 - Named query checking : enabled
+2018-02-04 19:41:59 DEBUG Settings:95 - Second-level cache: enabled
+2018-02-04 19:41:59 DEBUG Settings:96 - Second-level query cache: disabled
+2018-02-04 19:41:59 DEBUG Settings:97 - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@2a76840c
+2018-02-04 19:41:59 DEBUG Settings:98 - Second-level cache region prefix: null
+2018-02-04 19:41:59 DEBUG Settings:99 - Optimize second-level cache for minimal puts: disabled
+2018-02-04 19:41:59 DEBUG Settings:100 - Structured second-level cache entries: disabled
+2018-02-04 19:41:59 DEBUG Settings:101 - Second-level cache direct-reference entries: disabled
+2018-02-04 19:41:59 DEBUG Settings:102 - Automatic eviction of collection cache: disabled
+2018-02-04 19:41:59 DEBUG Settings:104 - JDBC batch size: 15
+2018-02-04 19:41:59 DEBUG Settings:105 - JDBC batch updates for versioned data: enabled
+2018-02-04 19:41:59 DEBUG Settings:106 - Scrollable result sets: enabled
+2018-02-04 19:41:59 DEBUG Settings:107 - Wrap result sets: disabled
+2018-02-04 19:41:59 DEBUG Settings:108 - JDBC3 getGeneratedKeys(): enabled
+2018-02-04 19:41:59 DEBUG Settings:109 - JDBC result set fetch size: null
+2018-02-04 19:41:59 DEBUG Settings:110 - Connection release mode: AFTER_TRANSACTION
+2018-02-04 19:41:59 DEBUG Settings:111 - Generate SQL with comments: disabled
+2018-02-04 19:41:59 DEBUG SessionFactoryImpl:252 - Session factory constructed with filter configurations : {}
+2018-02-04 19:41:59 DEBUG SessionFactoryImpl:253 - Instantiating session factory with properties: {sun.desktop=windows, hibernate.format_sql=false, awt.toolkit=sun.awt.windows.WToolkit, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1250, hibernate.dialect=org.hibernate.dialect.PostgreSQL82Dialect, java.class.path=C:\Users\patkrz2\Documents\STSJAVA\project1\target\test-classes;C:\Users\patkrz2\Documents\STSJAVA\project1\target\classes;C:\Users\patkrz2\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\patkrz2\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\patkrz2\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\patkrz2\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\patkrz2\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\patkrz2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\patkrz2\.m2\repository\org\quartz-scheduler\quartz\2.2.1\quartz-2.2.1.jar;C:\Users\patkrz2\.m2\repository\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;C:\Users\patkrz2\.m2\repository\org\quartz-scheduler\quartz-jobs\2.2.1\quartz-jobs-2.2.1.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-webmvc\5.0.3.RELEASE\spring-webmvc-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-aop\5.0.3.RELEASE\spring-aop-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-beans\5.0.3.RELEASE\spring-beans-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-context\5.0.3.RELEASE\spring-context-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-core\5.0.3.RELEASE\spring-core-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-jcl\5.0.3.RELEASE\spring-jcl-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-expression\5.0.3.RELEASE\spring-expression-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-web\5.0.3.RELEASE\spring-web-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\patkrz2\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\patkrz2\.m2\repository\org\hibernate\hibernate-entitymanager\5.2.1.Final\hibernate-entitymanager-5.2.1.Final.jar;C:\Users\patkrz2\.m2\repository\org\jboss\logging\jboss-logging\3.3.0.Final\jboss-logging-3.3.0.Final.jar;C:\Users\patkrz2\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\patkrz2\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;C:\Users\patkrz2\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\patkrz2\.m2\repository\org\apache\geronimo\specs\geronimo-jta_1.1_spec\1.1.1\geronimo-jta_1.1_spec-1.1.1.jar;C:\Users\patkrz2\.m2\repository\org\postgresql\postgresql\42.1.1\postgresql-42.1.1.jar;C:\Users\patkrz2\.m2\repository\org\hibernate\hibernate-core\5.2.0.Final\hibernate-core-5.2.0.Final.jar;C:\Users\patkrz2\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\patkrz2\.m2\repository\org\jboss\jandex\2.0.0.Final\jandex-2.0.0.Final.jar;C:\Users\patkrz2\.m2\repository\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;C:\Users\patkrz2\.m2\repository\javax\enterprise\cdi-api\1.1-PFD\cdi-api-1.1-PFD.jar;C:\Users\patkrz2\.m2\repository\javax\el\el-api\2.2\el-api-2.2.jar;C:\Users\patkrz2\.m2\repository\org\jboss\spec\javax\interceptor\jboss-interceptors-api_1.1_spec\1.0.0.Beta1\jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar;C:\Users\patkrz2\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\patkrz2\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\patkrz2\.m2\repository\org\hibernate\hibernate-validator\5.2.0.Final\hibernate-validator-5.2.0.Final.jar;C:\Users\patkrz2\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\patkrz2\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.2.Final\hibernate-commons-annotations-4.0.2.Final-tests.jar;C:\Users\patkrz2\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\patkrz2\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar;C:\Users\patkrz2\.m2\repository\org\springframework\data\spring-data-jpa\2.0.2.RELEASE\spring-data-jpa-2.0.2.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\data\spring-data-commons\2.0.2.RELEASE\spring-data-commons-2.0.2.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-orm\5.0.2.RELEASE\spring-orm-5.0.2.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-jdbc\5.0.2.RELEASE\spring-jdbc-5.0.2.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-tx\5.0.2.RELEASE\spring-tx-5.0.2.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\aspectj\aspectjrt\1.8.12\aspectjrt-1.8.12.jar;C:\Users\patkrz2\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.0\jackson-databind-2.9.0.jar;C:\Users\patkrz2\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.0\jackson-core-2.9.0.jar;C:\Users\patkrz2\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=Europe/Belgrade, javax.persistence.jdbc.user=****, javax.persistence.jdbc.url=jdbc:postgresql://localhost:5432/BazaTestowa, os.name=Windows 10, java.vm.specification.version=1.8, sun.java.launcher=SUN_STANDARD, user.country=PL, sun.boot.library.path=C:\Program Files\Java\jre1.8.0_151\bin, sun.java.command=C:\Users\patkrz2\Documents\STSJAVA\project1\target\surefire\surefirebooter6449047507011572894.jar C:\Users\patkrz2\Documents\STSJAVA\project1\target\surefire\surefire4449857554939116429tmp C:\Users\patkrz2\Documents\STSJAVA\project1\target\surefire\surefire_08381342383125647499tmp, surefire.test.class.path=C:\Users\patkrz2\Documents\STSJAVA\project1\target\test-classes;C:\Users\patkrz2\Documents\STSJAVA\project1\target\classes;C:\Users\patkrz2\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\patkrz2\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\patkrz2\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\patkrz2\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\patkrz2\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\patkrz2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\patkrz2\.m2\repository\org\quartz-scheduler\quartz\2.2.1\quartz-2.2.1.jar;C:\Users\patkrz2\.m2\repository\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;C:\Users\patkrz2\.m2\repository\org\quartz-scheduler\quartz-jobs\2.2.1\quartz-jobs-2.2.1.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-webmvc\5.0.3.RELEASE\spring-webmvc-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-aop\5.0.3.RELEASE\spring-aop-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-beans\5.0.3.RELEASE\spring-beans-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-context\5.0.3.RELEASE\spring-context-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-core\5.0.3.RELEASE\spring-core-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-jcl\5.0.3.RELEASE\spring-jcl-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-expression\5.0.3.RELEASE\spring-expression-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-web\5.0.3.RELEASE\spring-web-5.0.3.RELEASE.jar;C:\Users\patkrz2\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\patkrz2\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\patkrz2\.m2\repository\org\hibernate\hibernate-entitymanager\5.2.1.Final\hibernate-entitymanager-5.2.1.Final.jar;C:\Users\patkrz2\.m2\repository\org\jboss\logging\jboss-logging\3.3.0.Final\jboss-logging-3.3.0.Final.jar;C:\Users\patkrz2\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\patkrz2\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;C:\Users\patkrz2\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\patkrz2\.m2\repository\org\apache\geronimo\specs\geronimo-jta_1.1_spec\1.1.1\geronimo-jta_1.1_spec-1.1.1.jar;C:\Users\patkrz2\.m2\repository\org\postgresql\postgresql\42.1.1\postgresql-42.1.1.jar;C:\Users\patkrz2\.m2\repository\org\hibernate\hibernate-core\5.2.0.Final\hibernate-core-5.2.0.Final.jar;C:\Users\patkrz2\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\patkrz2\.m2\repository\org\jboss\jandex\2.0.0.Final\jandex-2.0.0.Final.jar;C:\Users\patkrz2\.m2\repository\com\fasterxml\classmate\1.3.0\classmate-1.3.0.jar;C:\Users\patkrz2\.m2\repository\javax\enterprise\cdi-api\1.1-PFD\cdi-api-1.1-PFD.jar;C:\Users\patkrz2\.m2\repository\javax\el\el-api\2.2\el-api-2.2.jar;C:\Users\patkrz2\.m2\repository\org\jboss\spec\javax\interceptor\jboss-interceptors-api_1.1_spec\1.0.0.Beta1\jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar;C:\Users\patkrz2\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\patkrz2\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\patkrz2\.m2\repository\org\hibernate\hibernate-validator\5.2.0.Final\hibernate-validator-5.2.0.Final.jar;C:\Users\patkrz2\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\patkrz2\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.2.Final\hibernate-commons-annotations-4.0.2.Final-tests.jar;C:\Users\patkrz2\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\patkrz2\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar;C:\Users\patkrz2\.m2\repository\org\springframework\data\spring-data-jpa\2.0.2.RELEASE\spring-data-jpa-2.0.2.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\data\spring-data-commons\2.0.2.RELEASE\spring-data-commons-2.0.2.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-orm\5.0.2.RELEASE\spring-orm-5.0.2.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-jdbc\5.0.2.RELEASE\spring-jdbc-5.0.2.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\springframework\spring-tx\5.0.2.RELEASE\spring-tx-5.0.2.RELEASE.jar;C:\Users\patkrz2\.m2\repository\org\aspectj\aspectjrt\1.8.12\aspectjrt-1.8.12.jar;C:\Users\patkrz2\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.0\jackson-databind-2.9.0.jar;C:\Users\patkrz2\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.0\jackson-core-2.9.0.jar;C:\Users\patkrz2\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;, sun.cpu.endian=little, user.home=C:\Users\patkrz2, user.language=pl, java.specification.vendor=Oracle Corporation, java.home=C:\Program Files\Java\jre1.8.0_151, file.separator=\, basedir=C:\Users\patkrz2\Documents\STSJAVA\project1, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, javax.persistence.jdbc.driver=org.postgresql.Driver, surefire.real.class.path=C:\Users\patkrz2\Documents\STSJAVA\project1\target\surefire\surefirebooter6449047507011572894.jar, sun.boot.class.path=C:\Program Files\Java\jre1.8.0_151\lib\resources.jar;C:\Program Files\Java\jre1.8.0_151\lib\rt.jar;C:\Program Files\Java\jre1.8.0_151\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_151\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_151\lib\jce.jar;C:\Program Files\Java\jre1.8.0_151\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_151\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_151\classes, hibernate.hbm2ddl.auto=create, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_151-b12, user.name=patkrz2, path.separator=;, hibernate.connection.username=postgres, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_151\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:postgresql://localhost:5432/BazaTestowa, hibernate.ejb.persistenceUnitName=hibernate-dynamic, file.encoding=Cp1250, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, localRepository=C:\Users\patkrz2\.m2\repository, hibernate.connection.driver_class=org.postgresql.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\patkrz2\AppData\Local\Temp\, java.version=1.8.0_151, user.dir=C:\Users\patkrz2\Documents\STSJAVA\project1, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@54e22bdd, java.library.path=C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\patkrz2\AppData\Local\Microsoft\WindowsApps;C:\adb;C:\PostgreSQL\pg10\bin;C:\Users\patkrz2\AppData\Local\Microsoft\WindowsApps;;C:\Users\patkrz2\Desktop\sts-bundle\sts-3.9.1.RELEASE;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.151-b12, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=C:\Program Files\Java\jre1.8.0_151\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, javax.persistence.jdbc.password=yamahanovy513960519, java.class.version=52.0}
+2018-02-04 19:42:00 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2018-02-04 19:42:00 DEBUG DefaultTraversableResolver:103 - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2018-02-04 19:42:00 DEBUG DefaultTraversableResolver:114 - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2018-02-04 19:42:00 DEBUG ValidationXmlParser:90 - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-04 19:42:00 DEBUG ResourceLoaderHelper:54 - Trying to load META-INF/validation.xml via TCCL
+2018-02-04 19:42:00 DEBUG ResourceLoaderHelper:60 - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-04 19:42:00 DEBUG ValidationXmlParser:97 - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-04 19:42:01 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [com.packt.project1.controller.Usluga] is safe
+2018-02-04 19:42:01 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.packt.project1.controller.Usluga
+2018-02-04 19:42:01 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [com.packt.project1.controller.Klient] is safe
+2018-02-04 19:42:01 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.packt.project1.controller.Klient
+2018-02-04 19:42:01 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [com.packt.project1.controller.Czynnosc] is safe
+2018-02-04 19:42:01 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.packt.project1.controller.Czynnosc
+2018-02-04 19:42:01 DEBUG JaccIntegrator:80 - Skipping JACC integration as it was not enabled
+2018-02-04 19:42:01 DEBUG CascadeStyles:268 - External cascade style regsitration [persist : STYLE_PERSIST_SKIPLAZY] overrode base registration [STYLE_PERSIST]
+2018-02-04 19:42:01 DEBUG SessionFactoryImpl:293 - Instantiated session factory
+2018-02-04 19:42:01 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [com.packt.project1.controller.Usluga] is safe
+2018-02-04 19:42:01 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.packt.project1.controller.Usluga
+2018-02-04 19:42:01 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [com.packt.project1.controller.Usluga] is safe
+2018-02-04 19:42:01 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.packt.project1.controller.Usluga
+2018-02-04 19:42:02 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [com.packt.project1.controller.Klient] is safe
+2018-02-04 19:42:02 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.packt.project1.controller.Klient
+2018-02-04 19:42:02 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [com.packt.project1.controller.Klient] is safe
+2018-02-04 19:42:02 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.packt.project1.controller.Klient
+2018-02-04 19:42:02 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [com.packt.project1.controller.Czynnosc] is safe
+2018-02-04 19:42:02 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.packt.project1.controller.Czynnosc
+2018-02-04 19:42:02 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [com.packt.project1.controller.Czynnosc] is safe
+2018-02-04 19:42:02 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.packt.project1.controller.Czynnosc
+2018-02-04 19:42:02 DEBUG AbstractEntityPersister:3529 - Static SQL for entity: com.packt.project1.controller.Usluga
+2018-02-04 19:42:02 DEBUG AbstractEntityPersister:3534 -  Version select: select id from Usluga where id =?
+2018-02-04 19:42:02 DEBUG AbstractEntityPersister:3537 -  Snapshot select: select usluga_.id, usluga_.dataPrzyjecia as dataPrzy2_2_, usluga_.dataZakonczenia as dataZako3_2_, usluga_.klient_id as klient_i6_2_, usluga_.kwota as kwota4_2_, usluga_.opis as opis5_2_ from Usluga usluga_ where usluga_.id=?
+2018-02-04 19:42:02 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into Usluga (dataPrzyjecia, dataZakonczenia, klient_id, kwota, opis, id) values (?, ?, ?, ?, ?, ?)
+2018-02-04 19:42:02 DEBUG AbstractEntityPersister:394 -  Update 0: update Usluga set dataPrzyjecia=?, dataZakonczenia=?, klient_id=?, kwota=?, opis=? where id=?
+2018-02-04 19:42:02 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from Usluga where id=?
+2018-02-04 19:42:02 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@c00fff0]
+2018-02-04 19:42:02 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataPrzyjecia
+2018-02-04 19:42:02 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataZakonczenia
+2018-02-04 19:42:02 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient
+2018-02-04 19:42:02 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@35038141]
+2018-02-04 19:42:02 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient.adres
+2018-02-04 19:42:02 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient.imie
+2018-02-04 19:42:02 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient.nazwisko
+2018-02-04 19:42:02 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient.telefon
+2018-02-04 19:42:02 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:02 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:02 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:02 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Usluga)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Usluga)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Usluga)
+          - SQL table alias mapping - usluga0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(klient)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.packt.project1.controller.Klient)
+                - SQL table alias mapping - klient1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Usluga [NONE]: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_, klient1_.id as id1_1_1_, klient1_.adres as adres2_1_1_, klient1_.imie as imie3_1_1_, klient1_.nazwisko as nazwisko4_1_1_, klient1_.telefon as telefon5_1_1_ from Usluga usluga0_ left outer join Klient klient1_ on usluga0_.klient_id=klient1_.id where usluga0_.id=?
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@41382722]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataPrzyjecia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataZakonczenia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@425357dd]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient.adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient.imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient.nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient.telefon
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Usluga)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Usluga)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Usluga)
+          - SQL table alias mapping - usluga0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(klient)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.packt.project1.controller.Klient)
+                - SQL table alias mapping - klient1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Usluga [READ]: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_, klient1_.id as id1_1_1_, klient1_.adres as adres2_1_1_, klient1_.imie as imie3_1_1_, klient1_.nazwisko as nazwisko4_1_1_, klient1_.telefon as telefon5_1_1_ from Usluga usluga0_ left outer join Klient klient1_ on usluga0_.klient_id=klient1_.id where usluga0_.id=?
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@210386e0]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataPrzyjecia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataZakonczenia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@65f87a2c]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Usluga)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Usluga)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Usluga)
+          - SQL table alias mapping - usluga0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Usluga [UPGRADE]: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_ from Usluga usluga0_ where usluga0_.id=? for update
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51684e4a]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataPrzyjecia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataZakonczenia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@38875e7d]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Usluga)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Usluga)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Usluga)
+          - SQL table alias mapping - usluga0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Usluga [UPGRADE_NOWAIT]: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_ from Usluga usluga0_ where usluga0_.id=? for update nowait 
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e886a5b]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataPrzyjecia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataZakonczenia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6e33c391]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Usluga)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Usluga)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Usluga)
+          - SQL table alias mapping - usluga0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Usluga [UPGRADE_SKIPLOCKED]: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_ from Usluga usluga0_ where usluga0_.id=? for update
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6c451c9c]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataPrzyjecia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataZakonczenia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@372b0d86]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Usluga)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Usluga)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Usluga)
+          - SQL table alias mapping - usluga0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Usluga [FORCE]: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_ from Usluga usluga0_ where usluga0_.id=? for update nowait 
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@47747fb9]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataPrzyjecia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataZakonczenia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@213e3629]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Usluga)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Usluga)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Usluga)
+          - SQL table alias mapping - usluga0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Usluga [PESSIMISTIC_READ]: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_ from Usluga usluga0_ where usluga0_.id=? for share
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4e9658b5]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataPrzyjecia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataZakonczenia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@20312893]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Usluga)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Usluga)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Usluga)
+          - SQL table alias mapping - usluga0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Usluga [PESSIMISTIC_WRITE]: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_ from Usluga usluga0_ where usluga0_.id=? for update
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@70eecdc2]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataPrzyjecia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataZakonczenia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7db0565c]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Usluga)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Usluga)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Usluga)
+          - SQL table alias mapping - usluga0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Usluga [PESSIMISTIC_FORCE_INCREMENT]: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_ from Usluga usluga0_ where usluga0_.id=? for update nowait 
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@54ec8cc9]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataPrzyjecia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataZakonczenia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5528a42c]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Usluga)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Usluga)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Usluga)
+          - SQL table alias mapping - usluga0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Usluga [OPTIMISTIC]: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_ from Usluga usluga0_ where usluga0_.id=?
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a551a63]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataPrzyjecia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : dataZakonczenia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : klient
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1edb61b1]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Usluga)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Usluga)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Usluga)
+          - SQL table alias mapping - usluga0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Usluga [OPTIMISTIC_FORCE_INCREMENT]: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_ from Usluga usluga0_ where usluga0_.id=?
+2018-02-04 19:42:03 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity com.packt.project1.controller.Usluga: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_ from Usluga usluga0_ where usluga0_.id=?
+2018-02-04 19:42:03 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity com.packt.project1.controller.Usluga: select usluga0_.id as id1_2_0_, usluga0_.dataPrzyjecia as dataPrzy2_2_0_, usluga0_.dataZakonczenia as dataZako3_2_0_, usluga0_.klient_id as klient_i6_2_0_, usluga0_.kwota as kwota4_2_0_, usluga0_.opis as opis5_2_0_ from Usluga usluga0_ where usluga0_.id=?
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:3529 - Static SQL for entity: com.packt.project1.controller.Klient
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:3534 -  Version select: select id from Klient where id =?
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:3537 -  Snapshot select: select klient_.id, klient_.adres as adres2_1_, klient_.imie as imie3_1_, klient_.nazwisko as nazwisko4_1_, klient_.telefon as telefon5_1_ from Klient klient_ where klient_.id=?
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into Klient (adres, imie, nazwisko, telefon, id) values (?, ?, ?, ?, ?)
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:394 -  Update 0: update Klient set adres=?, imie=?, nazwisko=?, telefon=? where id=?
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from Klient where id=?
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:3545 -  Identity insert: insert into Klient (adres, imie, nazwisko, telefon) values (?, ?, ?, ?)
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2d8f2f3a]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefon
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Klient)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Klient)
+          - SQL table alias mapping - klient0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Klient [NONE]: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=?
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7048f722]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefon
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Klient)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Klient)
+          - SQL table alias mapping - klient0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Klient [READ]: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=?
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@58a55449]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefon
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Klient)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Klient)
+          - SQL table alias mapping - klient0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Klient [UPGRADE]: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=? for update
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6e0ff644]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefon
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Klient)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Klient)
+          - SQL table alias mapping - klient0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Klient [UPGRADE_NOWAIT]: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=? for update nowait 
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a2bb0eb]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefon
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Klient)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Klient)
+          - SQL table alias mapping - klient0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Klient [UPGRADE_SKIPLOCKED]: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=? for update
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@733037]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefon
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Klient)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Klient)
+          - SQL table alias mapping - klient0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Klient [FORCE]: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=? for update nowait 
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@320e400]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefon
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Klient)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Klient)
+          - SQL table alias mapping - klient0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Klient [PESSIMISTIC_READ]: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=? for share
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1cfd1875]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefon
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Klient)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Klient)
+          - SQL table alias mapping - klient0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Klient [PESSIMISTIC_WRITE]: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=? for update
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c444798]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefon
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Klient)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Klient)
+          - SQL table alias mapping - klient0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Klient [PESSIMISTIC_FORCE_INCREMENT]: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=? for update nowait 
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6ebd78d1]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefon
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Klient)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Klient)
+          - SQL table alias mapping - klient0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Klient [OPTIMISTIC]: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=?
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d157787]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : telefon
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Klient)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Klient)
+          - SQL table alias mapping - klient0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Klient [OPTIMISTIC_FORCE_INCREMENT]: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=?
+2018-02-04 19:42:03 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity com.packt.project1.controller.Klient: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=?
+2018-02-04 19:42:03 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity com.packt.project1.controller.Klient: select klient0_.id as id1_1_0_, klient0_.adres as adres2_1_0_, klient0_.imie as imie3_1_0_, klient0_.nazwisko as nazwisko4_1_0_, klient0_.telefon as telefon5_1_0_ from Klient klient0_ where klient0_.id=?
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:3529 - Static SQL for entity: com.packt.project1.controller.Czynnosc
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:3534 -  Version select: select id from Czynnosc where id =?
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:3537 -  Snapshot select: select czynnosc_.id, czynnosc_.kwota as kwota2_0_, czynnosc_.opis as opis3_0_, czynnosc_.usluga_id as usluga_i4_0_ from Czynnosc czynnosc_ where czynnosc_.id=?
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into Czynnosc (kwota, opis, usluga_id, id) values (?, ?, ?, ?)
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:394 -  Update 0: update Czynnosc set kwota=?, opis=?, usluga_id=? where id=?
+2018-02-04 19:42:03 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from Czynnosc where id=?
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6d1310f6]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@54e7391d]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.dataPrzyjecia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.dataZakonczenia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.klient
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@255990cc]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.klient.adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.klient.imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.klient.nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.klient.telefon
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.opis
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Czynnosc)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Czynnosc, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Czynnosc)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Czynnosc.usluga)
+             - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:2>, path=com.packt.project1.controller.Czynnosc.usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Czynnosc)
+          - SQL table alias mapping - czynnosc0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(usluga)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.packt.project1.controller.Usluga)
+                - SQL table alias mapping - usluga1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+                - JOIN (JoinDefinedByMetadata(klient)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.packt.project1.controller.Klient)
+                      - SQL table alias mapping - klient2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Czynnosc [NONE]: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_, usluga1_.id as id1_2_1_, usluga1_.dataPrzyjecia as dataPrzy2_2_1_, usluga1_.dataZakonczenia as dataZako3_2_1_, usluga1_.klient_id as klient_i6_2_1_, usluga1_.kwota as kwota4_2_1_, usluga1_.opis as opis5_2_1_, klient2_.id as id1_1_2_, klient2_.adres as adres2_1_2_, klient2_.imie as imie3_1_2_, klient2_.nazwisko as nazwisko4_1_2_, klient2_.telefon as telefon5_1_2_ from Czynnosc czynnosc0_ left outer join Usluga usluga1_ on czynnosc0_.usluga_id=usluga1_.id left outer join Klient klient2_ on usluga1_.klient_id=klient2_.id where czynnosc0_.id=?
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3c8bdd5b]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@40e4ea87]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.dataPrzyjecia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.dataZakonczenia
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.klient
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3a7b503d]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.klient.adres
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.klient.imie
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.klient.nazwisko
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.klient.telefon
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga.opis
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Czynnosc)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Czynnosc, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Czynnosc)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Czynnosc.usluga)
+             - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Klient, querySpaceUid=<gen:2>, path=com.packt.project1.controller.Czynnosc.usluga.klient)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Czynnosc)
+          - SQL table alias mapping - czynnosc0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(usluga)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.packt.project1.controller.Usluga)
+                - SQL table alias mapping - usluga1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+                - JOIN (JoinDefinedByMetadata(klient)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.packt.project1.controller.Klient)
+                      - SQL table alias mapping - klient2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Czynnosc [READ]: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_, usluga1_.id as id1_2_1_, usluga1_.dataPrzyjecia as dataPrzy2_2_1_, usluga1_.dataZakonczenia as dataZako3_2_1_, usluga1_.klient_id as klient_i6_2_1_, usluga1_.kwota as kwota4_2_1_, usluga1_.opis as opis5_2_1_, klient2_.id as id1_1_2_, klient2_.adres as adres2_1_2_, klient2_.imie as imie3_1_2_, klient2_.nazwisko as nazwisko4_1_2_, klient2_.telefon as telefon5_1_2_ from Czynnosc czynnosc0_ left outer join Usluga usluga1_ on czynnosc0_.usluga_id=usluga1_.id left outer join Klient klient2_ on usluga1_.klient_id=klient2_.id where czynnosc0_.id=?
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@62c5bbdc]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1bc53649]
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Czynnosc)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Czynnosc, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Czynnosc)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Czynnosc.usluga)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Czynnosc)
+          - SQL table alias mapping - czynnosc0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Czynnosc [UPGRADE]: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_ from Czynnosc czynnosc0_ where czynnosc0_.id=? for update
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@88d6f9b]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@475b7792]
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Czynnosc)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Czynnosc, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Czynnosc)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Czynnosc.usluga)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Czynnosc)
+          - SQL table alias mapping - czynnosc0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Czynnosc [UPGRADE_NOWAIT]: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_ from Czynnosc czynnosc0_ where czynnosc0_.id=? for update nowait 
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@751e664e]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@182b435b]
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Czynnosc)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Czynnosc, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Czynnosc)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Czynnosc.usluga)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Czynnosc)
+          - SQL table alias mapping - czynnosc0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Czynnosc [UPGRADE_SKIPLOCKED]: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_ from Czynnosc czynnosc0_ where czynnosc0_.id=? for update
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d0402b]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7577b641]
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Czynnosc)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Czynnosc, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Czynnosc)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Czynnosc.usluga)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Czynnosc)
+          - SQL table alias mapping - czynnosc0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Czynnosc [FORCE]: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_ from Czynnosc czynnosc0_ where czynnosc0_.id=? for update nowait 
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3704122f]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@60afd40d]
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Czynnosc)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Czynnosc, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Czynnosc)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Czynnosc.usluga)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Czynnosc)
+          - SQL table alias mapping - czynnosc0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Czynnosc [PESSIMISTIC_READ]: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_ from Czynnosc czynnosc0_ where czynnosc0_.id=? for share
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@28a2a3e7]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@10b3df93]
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Czynnosc)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Czynnosc, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Czynnosc)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Czynnosc.usluga)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Czynnosc)
+          - SQL table alias mapping - czynnosc0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Czynnosc [PESSIMISTIC_WRITE]: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_ from Czynnosc czynnosc0_ where czynnosc0_.id=? for update
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@ea27e34]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e72dba7]
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Czynnosc)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Czynnosc, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Czynnosc)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Czynnosc.usluga)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Czynnosc)
+          - SQL table alias mapping - czynnosc0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Czynnosc [PESSIMISTIC_FORCE_INCREMENT]: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_ from Czynnosc czynnosc0_ where czynnosc0_.id=? for update nowait 
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@33c2bd]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3c321bdb]
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Czynnosc)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Czynnosc, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Czynnosc)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Czynnosc.usluga)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Czynnosc)
+          - SQL table alias mapping - czynnosc0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Czynnosc [OPTIMISTIC]: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_ from Czynnosc czynnosc0_ where czynnosc0_.id=?
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@24855019]
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : kwota
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : opis
+2018-02-04 19:42:03 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : usluga
+2018-02-04 19:42:03 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d4d8fcf]
+2018-02-04 19:42:03 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2018-02-04 19:42:03 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2018-02-04 19:42:03 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.packt.project1.controller.Czynnosc)
+    - Returns
+       - EntityReturnImpl(entity=com.packt.project1.controller.Czynnosc, querySpaceUid=<gen:0>, path=com.packt.project1.controller.Czynnosc)
+          - EntityAttributeFetchImpl(entity=com.packt.project1.controller.Usluga, querySpaceUid=<gen:1>, path=com.packt.project1.controller.Czynnosc.usluga)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.packt.project1.controller.Czynnosc)
+          - SQL table alias mapping - czynnosc0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2018-02-04 19:42:03 DEBUG EntityLoader:128 - Static select for entity com.packt.project1.controller.Czynnosc [OPTIMISTIC_FORCE_INCREMENT]: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_ from Czynnosc czynnosc0_ where czynnosc0_.id=?
+2018-02-04 19:42:03 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity com.packt.project1.controller.Czynnosc: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_ from Czynnosc czynnosc0_ where czynnosc0_.id=?
+2018-02-04 19:42:03 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity com.packt.project1.controller.Czynnosc: select czynnosc0_.id as id1_0_0_, czynnosc0_.kwota as kwota2_0_0_, czynnosc0_.opis as opis3_0_0_, czynnosc0_.usluga_id as usluga_i4_0_0_ from Czynnosc czynnosc0_ where czynnosc0_.id=?
+2018-02-04 19:42:04 DEBUG SQL:92 - alter table Czynnosc drop constraint FKhi8qy09q5euxn423cn91prra6
+2018-02-04 19:42:04 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table Czynnosc drop constraint FKhi8qy09q5euxn423cn91prra6]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Czynnosc drop constraint FKhi8qy09q5euxn423cn91prra6]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at com.packt.project1.controller.TestGeneratoraRaportu.testujRaportowanie(TestGeneratoraRaportu.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "czynnosc" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 45 more
+2018-02-04 19:42:04 DEBUG SQL:92 - alter table Usluga drop constraint FK8kpgdt26njevt2olbiuobijta
+2018-02-04 19:42:04 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table Usluga drop constraint FK8kpgdt26njevt2olbiuobijta]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Usluga drop constraint FK8kpgdt26njevt2olbiuobijta]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at com.packt.project1.controller.TestGeneratoraRaportu.testujRaportowanie(TestGeneratoraRaportu.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "usluga" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 45 more
+2018-02-04 19:42:04 DEBUG SQL:92 - drop table if exists Czynnosc cascade
+2018-02-04 19:42:04 DEBUG SqlExceptionHelper:210 - SQL Warning
+org.postgresql.util.PSQLWarning: table "czynnosc" does not exist, skipping
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveNoticeResponse(QueryExecutorImpl.java:2493)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2220)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:240)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at com.packt.project1.controller.TestGeneratoraRaportu.testujRaportowanie(TestGeneratoraRaportu.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2018-02-04 19:42:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-04 19:42:04 WARN  SqlExceptionHelper:218 - table "czynnosc" does not exist, skipping
+2018-02-04 19:42:04 DEBUG SQL:92 - drop table if exists Klient cascade
+2018-02-04 19:42:04 DEBUG SqlExceptionHelper:210 - SQL Warning
+org.postgresql.util.PSQLWarning: table "klient" does not exist, skipping
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveNoticeResponse(QueryExecutorImpl.java:2493)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2220)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:240)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at com.packt.project1.controller.TestGeneratoraRaportu.testujRaportowanie(TestGeneratoraRaportu.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2018-02-04 19:42:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-04 19:42:04 WARN  SqlExceptionHelper:218 - table "klient" does not exist, skipping
+2018-02-04 19:42:04 DEBUG SQL:92 - drop table if exists Usluga cascade
+2018-02-04 19:42:04 DEBUG SqlExceptionHelper:210 - SQL Warning
+org.postgresql.util.PSQLWarning: table "usluga" does not exist, skipping
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveNoticeResponse(QueryExecutorImpl.java:2493)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2220)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:240)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at com.packt.project1.controller.TestGeneratoraRaportu.testujRaportowanie(TestGeneratoraRaportu.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2018-02-04 19:42:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2018-02-04 19:42:04 WARN  SqlExceptionHelper:218 - table "usluga" does not exist, skipping
+2018-02-04 19:42:04 DEBUG SQL:92 - drop sequence hibernate_sequence
+2018-02-04 19:42:04 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [drop sequence hibernate_sequence]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [drop sequence hibernate_sequence]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:245)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at com.packt.project1.controller.TestGeneratoraRaportu.testujRaportowanie(TestGeneratoraRaportu.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.postgresql.util.PSQLException: ERROR: sequence "hibernate_sequence" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 44 more
+2018-02-04 19:42:05 DEBUG SQL:92 - create sequence hibernate_sequence start 1 increment 1
+2018-02-04 19:42:05 DEBUG SQL:92 - create table Czynnosc (id int4 not null, kwota int4, opis varchar(255), usluga_id int4, primary key (id))
+2018-02-04 19:42:06 DEBUG SQL:92 - create table Klient (id  serial not null, adres varchar(255), imie varchar(255), nazwisko varchar(255), telefon varchar(255), primary key (id))
+2018-02-04 19:42:06 DEBUG SQL:92 - create table Usluga (id int4 not null, dataPrzyjecia timestamp, dataZakonczenia timestamp, kwota int4, opis varchar(255), klient_id int4, primary key (id))
+2018-02-04 19:42:06 DEBUG SQL:92 - alter table Czynnosc add constraint FKhi8qy09q5euxn423cn91prra6 foreign key (usluga_id) references Usluga
+2018-02-04 19:42:06 DEBUG SQL:92 - alter table Usluga add constraint FK8kpgdt26njevt2olbiuobijta foreign key (klient_id) references Klient
+2018-02-04 19:42:06 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6650813a'
+2018-02-04 19:42:06 DEBUG JtaPlatformInitiator:42 - No JtaPlatform was specified, checking resolver
+2018-02-04 19:42:06 DEBUG JtaPlatformResolverInitiator:33 - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2018-02-04 19:42:06 DEBUG StandardJtaPlatformResolver:101 - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2018-02-04 19:42:06 DEBUG NamedQueryRepository:151 - Checking 0 named HQL queries
+2018-02-04 19:42:06 DEBUG NamedQueryRepository:167 - Checking 0 named SQL queries
+2018-02-04 19:42:06 DEBUG SessionFactoryRegistry:52 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@30272916
+2018-02-04 19:42:06 DEBUG SessionFactoryRegistry:74 - Registering SessionFactory: 09333505-8541-4bb9-a70e-ebf48f8b670a (<unnamed>)
+2018-02-04 19:42:06 DEBUG SessionFactoryRegistry:81 - Not binding SessionFactory to JNDI, no JNDI name configured
+2018-02-04 19:42:07 DEBUG StatisticsInitiator:82 - Statistics initialized [enabled=false]
+2018-02-04 19:42:07 DEBUG TransactionImpl:55 - begin
+2018-02-04 19:42:07 DEBUG ActionQueue:231 - Executing identity-insert immediately
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Klient (adres, imie, nazwisko, telefon) values (?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 1
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:104 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 1
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 1, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 2
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 2, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 3
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 3, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 4
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 4, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 5
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 5, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 6
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 6, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 7
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 7, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Usluga (dataPrzyjecia, dataZakonczenia, klient_id, kwota, opis, id) values (?, ?, ?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Czynnosc (kwota, opis, usluga_id, id) values (?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Czynnosc (kwota, opis, usluga_id, id) values (?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Czynnosc (kwota, opis, usluga_id, id) values (?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Usluga (dataPrzyjecia, dataZakonczenia, klient_id, kwota, opis, id) values (?, ?, ?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Czynnosc (kwota, opis, usluga_id, id) values (?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Czynnosc (kwota, opis, usluga_id, id) values (?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG ActionQueue:231 - Executing identity-insert immediately
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Klient (adres, imie, nazwisko, telefon) values (?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 2
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:104 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 8
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 8, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 9
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 9, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 10
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 10, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Usluga (dataPrzyjecia, dataZakonczenia, klient_id, kwota, opis, id) values (?, ?, ?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Czynnosc (kwota, opis, usluga_id, id) values (?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Czynnosc (kwota, opis, usluga_id, id) values (?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG ActionQueue:231 - Executing identity-insert immediately
+2018-02-04 19:42:07 DEBUG SQL:92 - insert into Klient (adres, imie, nazwisko, telefon) values (?, ?, ?, ?)
+2018-02-04 19:42:07 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 3
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:104 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 11
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 11, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 12
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 12, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG SQL:92 - select nextval ('hibernate_sequence')
+2018-02-04 19:42:07 DEBUG SequenceStructure:102 - Sequence value obtained: 13
+2018-02-04 19:42:07 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2018-02-04 19:42:07 DEBUG AbstractSaveEventListener:118 - Generated identifier: 13, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-02-04 19:42:07 DEBUG TransactionImpl:66 - committing
+2018-02-04 19:42:07 DEBUG AbstractFlushingEventListener:132 - Processing flush-time cascades
+2018-02-04 19:42:07 DEBUG AbstractFlushingEventListener:174 - Dirty checking collections
+2018-02-04 19:42:07 DEBUG AbstractFlushingEventListener:106 - Flushed: 3 insertions, 0 updates, 0 deletions to 16 objects
+2018-02-04 19:42:07 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2018-02-04 19:42:07 DEBUG EntityPrinter:102 - Listing entities:
+2018-02-04 19:42:07 DEBUG EntityPrinter:109 - com.packt.project1.controller.Usluga{dataPrzyjecia=Tue Jan 02 00:00:00 CET 2018, dataZakonczenia=Thu Jan 11 00:00:00 CET 2018, klient=com.packt.project1.controller.Klient#3, id=11, kwota=400, opis=naprawa 4}
+2018-02-04 19:42:07 DEBUG EntityPrinter:109 - com.packt.project1.controller.Czynnosc{id=12, kwota=300, opis=Wymiana drazkow kierowniczych, usluga=com.packt.project1.controller.Usluga#11}
+2018-02-04 19:42:07 DEBUG EntityPrinter:109 - com.packt.project1.controller.Czynnosc{id=13, kwota=100, opis=Wymiana kompletu filtrow, usluga=com.packt.project1.controller.Usluga#11}
+2018-02-04 19:42:07 DEBUG EntityPrinter:109 - com.packt.project1.controller.Klient{imie=Pawe³, nazwisko=Jankowski, telefon=783745645, id=1, adres=Polna 1 Poznan}
+2018-02-04 19:42:07 DEBUG EntityPrinter:109 - com.packt.project1.controller.Usluga{dataPrzyjecia=Fri May 19 00:00:00 CEST 2017, dataZakonczenia=Thu Jan 11 00:00:00 CET 2018, klient=com.packt.project1.controller.Klient#1, id=1, kwota=150, opis=wymiana dr¹¿ków}
+2018-02-04 19:42:07 DEBUG EntityPrinter:109 - com.packt.project1.controller.Czynnosc{id=2, kwota=150, opis=wymiana dr¹¿ków, usluga=com.packt.project1.controller.Usluga#1}
+2018-02-04 19:42:07 DEBUG EntityPrinter:109 - com.packt.project1.controller.Klient{imie=Adam, nazwisko=Igiel, telefon=673763812, id=2, adres=Lipowa Sulecin}
+2018-02-04 19:42:07 DEBUG EntityPrinter:109 - com.packt.project1.controller.Czynnosc{id=3, kwota=100, opis=Geometria kó³, usluga=com.packt.project1.controller.Usluga#1}
+2018-02-04 19:42:07 DEBUG EntityPrinter:109 - com.packt.project1.controller.Klient{imie=Adrianna, nazwisko=Iwan, telefon=784983241, id=3, adres=Ogrodowa 23 Poznan}
+2018-02-04 19:42:08 DEBUG EntityPrinter:109 - com.packt.project1.controller.Czynnosc{id=4, kwota=300, opis=Wymiana sprêg³a, usluga=com.packt.project1.controller.Usluga#1}
+2018-02-04 19:42:08 DEBUG EntityPrinter:109 - com.packt.project1.controller.Usluga{dataPrzyjecia=Wed Jun 21 00:00:00 CEST 2017, dataZakonczenia=Thu Jan 11 00:00:00 CET 2018, klient=com.packt.project1.controller.Klient#1, id=5, kwota=1350, opis=rutynowe badanie techniczne}
+2018-02-04 19:42:08 DEBUG EntityPrinter:109 - com.packt.project1.controller.Czynnosc{id=6, kwota=150, opis=Wymiana oleju, usluga=com.packt.project1.controller.Usluga#5}
+2018-02-04 19:42:08 DEBUG EntityPrinter:109 - com.packt.project1.controller.Czynnosc{id=7, kwota=1200, opis=Wymiana kompletu rozrzadu, usluga=com.packt.project1.controller.Usluga#5}
+2018-02-04 19:42:08 DEBUG EntityPrinter:109 - com.packt.project1.controller.Usluga{dataPrzyjecia=Sat Dec 23 00:00:00 CET 2017, dataZakonczenia=Thu Jan 11 00:00:00 CET 2018, klient=com.packt.project1.controller.Klient#2, id=8, kwota=1520, opis=naprawa 3}
+2018-02-04 19:42:08 DEBUG EntityPrinter:109 - com.packt.project1.controller.Czynnosc{id=9, kwota=1500, opis=Wymiana skrzyni biegów, usluga=com.packt.project1.controller.Usluga#8}
+2018-02-04 19:42:08 DEBUG EntityPrinter:109 - com.packt.project1.controller.Czynnosc{id=10, kwota=20, opis=Uzupe³nienie plynu chlodniczego, usluga=com.packt.project1.controller.Usluga#8}
+2018-02-04 19:42:08 DEBUG SQL:92 - insert into Usluga (dataPrzyjecia, dataZakonczenia, klient_id, kwota, opis, id) values (?, ?, ?, ?, ?, ?)
+2018-02-04 19:42:08 DEBUG SQL:92 - insert into Czynnosc (kwota, opis, usluga_id, id) values (?, ?, ?, ?)
+2018-02-04 19:42:08 DEBUG SQL:92 - insert into Czynnosc (kwota, opis, usluga_id, id) values (?, ?, ?, ?)
+2018-02-04 19:42:08 DEBUG LogicalConnectionManagedImpl:154 - Initiating JDBC connection release from afterTransaction
+2018-02-04 19:42:08 DEBUG LogicalConnectionManagedImpl:154 - Initiating JDBC connection release from afterTransaction
+2018-02-04 19:42:08 DEBUG QueryTranslatorFactoryInitiator:45 - QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@1c6e0a08
+2018-02-04 19:42:08 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-02-04 19:42:09 DEBUG QueryTranslatorImpl:278 - parse() - HQL: SELECT k FROM com.packt.project1.controller.Usluga k WHERE dataZakonczenia = '2018-01-11'
+2018-02-04 19:42:09 DEBUG QueryTranslatorImpl:296 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'FROM'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'packt'
+    |  |     |  |  |  \-[IDENT] Node: 'project1'
+    |  |     |  |  \-[IDENT] Node: 'controller'
+    |  |     |  \-[IDENT] Node: 'Usluga'
+    |  |     \-[ALIAS] Node: 'k'
+    |  \-[SELECT] Node: 'SELECT'
+    |     \-[IDENT] Node: 'k'
+    \-[WHERE] Node: 'WHERE'
+       \-[EQ] Node: '='
+          +-[IDENT] Node: 'dataZakonczenia'
+          \-[QUOTED_STRING] Node: ''2018-01-11''
+
+2018-02-04 19:42:09 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:09 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2018-02-04 19:42:09 DEBUG FromElement:146 - FromClause{level=1} : com.packt.project1.controller.Usluga (k) -> usluga0_
+2018-02-04 19:42:09 DEBUG FromReferenceNode:60 - Resolved : k -> usluga0_.id
+2018-02-04 19:42:09 DEBUG FromReferenceNode:60 - Resolved : {synthetic-alias} -> {synthetic-alias}
+2018-02-04 19:42:09 DEBUG DotNode:661 - getDataType() : dataZakonczenia -> org.hibernate.type.TimestampType@70e8f8e
+2018-02-04 19:42:09 DEBUG FromReferenceNode:60 - Resolved : {synthetic-alias}.dataZakonczenia -> usluga0_.dataZakonczenia
+2018-02-04 19:42:09 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2018-02-04 19:42:09 DEBUG HqlSqlWalker:725 - processQuery() :  ( SELECT ( {select clause} usluga0_.id ) ( FromClause{level=1} Usluga usluga0_ ) ( WHERE ( = ( usluga0_.dataZakonczenia {synthetic-alias} dataZakonczenia ) '2018-01-11' ) ) )
+2018-02-04 19:42:09 DEBUG JoinProcessor:169 - Using FROM fragment [Usluga usluga0_]
+2018-02-04 19:42:09 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2018-02-04 19:42:09 DEBUG QueryTranslatorImpl:265 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Usluga)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'usluga0_.id as id1_2_' {alias=k, className=com.packt.project1.controller.Usluga, tableAlias=usluga0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'usluga0_.dataPrzyjecia as dataPrzy2_2_, usluga0_.dataZakonczenia as dataZako3_2_, usluga0_.klient_id as klient_i6_2_, usluga0_.kwota as kwota4_2_, usluga0_.opis as opis5_2_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[k], fromElementByTableAlias=[usluga0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Usluga usluga0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=k,role=null,tableName=Usluga,tableAlias=usluga0_,origin=null,columns={,className=com.packt.project1.controller.Usluga}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'usluga0_.dataZakonczenia' {propertyName=dataZakonczenia,dereferenceType=PRIMITIVE,getPropertyPath=dataZakonczenia,path={synthetic-alias}.dataZakonczenia,tableAlias=usluga0_,className=com.packt.project1.controller.Usluga,classAlias=k}
+          |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+          |  \-[IDENT] IdentNode: 'dataZakonczenia' {originalText=dataZakonczenia}
+          \-[QUOTED_STRING] LiteralNode: ''2018-01-11''
+
+2018-02-04 19:42:09 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:09 DEBUG QueryTranslatorImpl:247 - HQL: SELECT k FROM com.packt.project1.controller.Usluga k WHERE dataZakonczenia = '2018-01-11'
+2018-02-04 19:42:09 DEBUG QueryTranslatorImpl:248 - SQL: select usluga0_.id as id1_2_, usluga0_.dataPrzyjecia as dataPrzy2_2_, usluga0_.dataZakonczenia as dataZako3_2_, usluga0_.klient_id as klient_i6_2_, usluga0_.kwota as kwota4_2_, usluga0_.opis as opis5_2_ from Usluga usluga0_ where usluga0_.dataZakonczenia='2018-01-11'
+2018-02-04 19:42:09 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:09 DEBUG SQL:92 - select usluga0_.id as id1_2_, usluga0_.dataPrzyjecia as dataPrzy2_2_, usluga0_.dataZakonczenia as dataZako3_2_, usluga0_.klient_id as klient_i6_2_, usluga0_.kwota as kwota4_2_, usluga0_.opis as opis5_2_ from Usluga usluga0_ where usluga0_.dataZakonczenia='2018-01-11'
+2018-02-04 19:42:09 DEBUG Loader:384 - Result set row: 0
+2018-02-04 19:42:09 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Usluga#1]
+2018-02-04 19:42:09 DEBUG Loader:384 - Result set row: 1
+2018-02-04 19:42:09 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Usluga#5]
+2018-02-04 19:42:09 DEBUG Loader:384 - Result set row: 2
+2018-02-04 19:42:09 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Usluga#8]
+2018-02-04 19:42:09 DEBUG Loader:384 - Result set row: 3
+2018-02-04 19:42:09 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Usluga#11]
+2018-02-04 19:42:09 DEBUG LogicalConnectionManagedImpl:154 - Initiating JDBC connection release from afterTransaction
+2018-02-04 19:42:09 DEBUG QueryTranslatorImpl:278 - parse() - HQL: SELECT c FROM com.packt.project1.controller.Czynnosc c WHERE usluga_id = 1
+2018-02-04 19:42:09 DEBUG QueryTranslatorImpl:296 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'FROM'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'packt'
+    |  |     |  |  |  \-[IDENT] Node: 'project1'
+    |  |     |  |  \-[IDENT] Node: 'controller'
+    |  |     |  \-[IDENT] Node: 'Czynnosc'
+    |  |     \-[ALIAS] Node: 'c'
+    |  \-[SELECT] Node: 'SELECT'
+    |     \-[IDENT] Node: 'c'
+    \-[WHERE] Node: 'WHERE'
+       \-[EQ] Node: '='
+          +-[IDENT] Node: 'usluga_id'
+          \-[NUM_INT] Node: '1'
+
+2018-02-04 19:42:09 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:09 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2018-02-04 19:42:09 DEBUG FromElement:146 - FromClause{level=1} : com.packt.project1.controller.Czynnosc (c) -> czynnosc0_
+2018-02-04 19:42:09 DEBUG FromReferenceNode:60 - Resolved : c -> czynnosc0_.id
+2018-02-04 19:42:09 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2018-02-04 19:42:09 DEBUG HqlSqlWalker:725 - processQuery() :  ( SELECT ( {select clause} czynnosc0_.id ) ( FromClause{level=1} Czynnosc czynnosc0_ ) ( WHERE ( = usluga_id 1 ) ) )
+2018-02-04 19:42:09 DEBUG JoinProcessor:169 - Using FROM fragment [Czynnosc czynnosc0_]
+2018-02-04 19:42:10 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:265 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Czynnosc)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'czynnosc0_.id as id1_0_' {alias=c, className=com.packt.project1.controller.Czynnosc, tableAlias=czynnosc0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'czynnosc0_.kwota as kwota2_0_, czynnosc0_.opis as opis3_0_, czynnosc0_.usluga_id as usluga_i4_0_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[c], fromElementByTableAlias=[czynnosc0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Czynnosc czynnosc0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=c,role=null,tableName=Czynnosc,tableAlias=czynnosc0_,origin=null,columns={,className=com.packt.project1.controller.Czynnosc}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[IDENT] IdentNode: 'usluga_id' {originalText=usluga_id}
+          \-[NUM_INT] LiteralNode: '1'
+
+2018-02-04 19:42:10 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:247 - HQL: SELECT c FROM com.packt.project1.controller.Czynnosc c WHERE usluga_id = 1
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:248 - SQL: select czynnosc0_.id as id1_0_, czynnosc0_.kwota as kwota2_0_, czynnosc0_.opis as opis3_0_, czynnosc0_.usluga_id as usluga_i4_0_ from Czynnosc czynnosc0_ where usluga_id=1
+2018-02-04 19:42:10 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:10 DEBUG SQL:92 - select czynnosc0_.id as id1_0_, czynnosc0_.kwota as kwota2_0_, czynnosc0_.opis as opis3_0_, czynnosc0_.usluga_id as usluga_i4_0_ from Czynnosc czynnosc0_ where usluga_id=1
+2018-02-04 19:42:10 DEBUG Loader:384 - Result set row: 0
+2018-02-04 19:42:10 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Czynnosc#2]
+2018-02-04 19:42:10 DEBUG Loader:384 - Result set row: 1
+2018-02-04 19:42:10 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Czynnosc#3]
+2018-02-04 19:42:10 DEBUG Loader:384 - Result set row: 2
+2018-02-04 19:42:10 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Czynnosc#4]
+2018-02-04 19:42:10 DEBUG LogicalConnectionManagedImpl:154 - Initiating JDBC connection release from afterTransaction
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:278 - parse() - HQL: SELECT c FROM com.packt.project1.controller.Czynnosc c WHERE usluga_id = 5
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:296 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'FROM'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'packt'
+    |  |     |  |  |  \-[IDENT] Node: 'project1'
+    |  |     |  |  \-[IDENT] Node: 'controller'
+    |  |     |  \-[IDENT] Node: 'Czynnosc'
+    |  |     \-[ALIAS] Node: 'c'
+    |  \-[SELECT] Node: 'SELECT'
+    |     \-[IDENT] Node: 'c'
+    \-[WHERE] Node: 'WHERE'
+       \-[EQ] Node: '='
+          +-[IDENT] Node: 'usluga_id'
+          \-[NUM_INT] Node: '5'
+
+2018-02-04 19:42:10 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:10 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2018-02-04 19:42:10 DEBUG FromElement:146 - FromClause{level=1} : com.packt.project1.controller.Czynnosc (c) -> czynnosc0_
+2018-02-04 19:42:10 DEBUG FromReferenceNode:60 - Resolved : c -> czynnosc0_.id
+2018-02-04 19:42:10 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2018-02-04 19:42:10 DEBUG HqlSqlWalker:725 - processQuery() :  ( SELECT ( {select clause} czynnosc0_.id ) ( FromClause{level=1} Czynnosc czynnosc0_ ) ( WHERE ( = usluga_id 5 ) ) )
+2018-02-04 19:42:10 DEBUG JoinProcessor:169 - Using FROM fragment [Czynnosc czynnosc0_]
+2018-02-04 19:42:10 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:265 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Czynnosc)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'czynnosc0_.id as id1_0_' {alias=c, className=com.packt.project1.controller.Czynnosc, tableAlias=czynnosc0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'czynnosc0_.kwota as kwota2_0_, czynnosc0_.opis as opis3_0_, czynnosc0_.usluga_id as usluga_i4_0_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[c], fromElementByTableAlias=[czynnosc0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Czynnosc czynnosc0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=c,role=null,tableName=Czynnosc,tableAlias=czynnosc0_,origin=null,columns={,className=com.packt.project1.controller.Czynnosc}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[IDENT] IdentNode: 'usluga_id' {originalText=usluga_id}
+          \-[NUM_INT] LiteralNode: '5'
+
+2018-02-04 19:42:10 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:247 - HQL: SELECT c FROM com.packt.project1.controller.Czynnosc c WHERE usluga_id = 5
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:248 - SQL: select czynnosc0_.id as id1_0_, czynnosc0_.kwota as kwota2_0_, czynnosc0_.opis as opis3_0_, czynnosc0_.usluga_id as usluga_i4_0_ from Czynnosc czynnosc0_ where usluga_id=5
+2018-02-04 19:42:10 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:10 DEBUG SQL:92 - select czynnosc0_.id as id1_0_, czynnosc0_.kwota as kwota2_0_, czynnosc0_.opis as opis3_0_, czynnosc0_.usluga_id as usluga_i4_0_ from Czynnosc czynnosc0_ where usluga_id=5
+2018-02-04 19:42:10 DEBUG Loader:384 - Result set row: 0
+2018-02-04 19:42:10 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Czynnosc#6]
+2018-02-04 19:42:10 DEBUG Loader:384 - Result set row: 1
+2018-02-04 19:42:10 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Czynnosc#7]
+2018-02-04 19:42:10 DEBUG LogicalConnectionManagedImpl:154 - Initiating JDBC connection release from afterTransaction
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:278 - parse() - HQL: SELECT c FROM com.packt.project1.controller.Czynnosc c WHERE usluga_id = 8
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:296 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'FROM'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'packt'
+    |  |     |  |  |  \-[IDENT] Node: 'project1'
+    |  |     |  |  \-[IDENT] Node: 'controller'
+    |  |     |  \-[IDENT] Node: 'Czynnosc'
+    |  |     \-[ALIAS] Node: 'c'
+    |  \-[SELECT] Node: 'SELECT'
+    |     \-[IDENT] Node: 'c'
+    \-[WHERE] Node: 'WHERE'
+       \-[EQ] Node: '='
+          +-[IDENT] Node: 'usluga_id'
+          \-[NUM_INT] Node: '8'
+
+2018-02-04 19:42:10 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:10 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2018-02-04 19:42:10 DEBUG FromElement:146 - FromClause{level=1} : com.packt.project1.controller.Czynnosc (c) -> czynnosc0_
+2018-02-04 19:42:10 DEBUG FromReferenceNode:60 - Resolved : c -> czynnosc0_.id
+2018-02-04 19:42:10 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2018-02-04 19:42:10 DEBUG HqlSqlWalker:725 - processQuery() :  ( SELECT ( {select clause} czynnosc0_.id ) ( FromClause{level=1} Czynnosc czynnosc0_ ) ( WHERE ( = usluga_id 8 ) ) )
+2018-02-04 19:42:10 DEBUG JoinProcessor:169 - Using FROM fragment [Czynnosc czynnosc0_]
+2018-02-04 19:42:10 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:265 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Czynnosc)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'czynnosc0_.id as id1_0_' {alias=c, className=com.packt.project1.controller.Czynnosc, tableAlias=czynnosc0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'czynnosc0_.kwota as kwota2_0_, czynnosc0_.opis as opis3_0_, czynnosc0_.usluga_id as usluga_i4_0_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[c], fromElementByTableAlias=[czynnosc0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Czynnosc czynnosc0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=c,role=null,tableName=Czynnosc,tableAlias=czynnosc0_,origin=null,columns={,className=com.packt.project1.controller.Czynnosc}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[IDENT] IdentNode: 'usluga_id' {originalText=usluga_id}
+          \-[NUM_INT] LiteralNode: '8'
+
+2018-02-04 19:42:10 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:247 - HQL: SELECT c FROM com.packt.project1.controller.Czynnosc c WHERE usluga_id = 8
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:248 - SQL: select czynnosc0_.id as id1_0_, czynnosc0_.kwota as kwota2_0_, czynnosc0_.opis as opis3_0_, czynnosc0_.usluga_id as usluga_i4_0_ from Czynnosc czynnosc0_ where usluga_id=8
+2018-02-04 19:42:10 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:10 DEBUG SQL:92 - select czynnosc0_.id as id1_0_, czynnosc0_.kwota as kwota2_0_, czynnosc0_.opis as opis3_0_, czynnosc0_.usluga_id as usluga_i4_0_ from Czynnosc czynnosc0_ where usluga_id=8
+2018-02-04 19:42:10 DEBUG Loader:384 - Result set row: 0
+2018-02-04 19:42:10 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Czynnosc#9]
+2018-02-04 19:42:10 DEBUG Loader:384 - Result set row: 1
+2018-02-04 19:42:10 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Czynnosc#10]
+2018-02-04 19:42:10 DEBUG LogicalConnectionManagedImpl:154 - Initiating JDBC connection release from afterTransaction
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:278 - parse() - HQL: SELECT c FROM com.packt.project1.controller.Czynnosc c WHERE usluga_id = 11
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:296 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'FROM'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'packt'
+    |  |     |  |  |  \-[IDENT] Node: 'project1'
+    |  |     |  |  \-[IDENT] Node: 'controller'
+    |  |     |  \-[IDENT] Node: 'Czynnosc'
+    |  |     \-[ALIAS] Node: 'c'
+    |  \-[SELECT] Node: 'SELECT'
+    |     \-[IDENT] Node: 'c'
+    \-[WHERE] Node: 'WHERE'
+       \-[EQ] Node: '='
+          +-[IDENT] Node: 'usluga_id'
+          \-[NUM_INT] Node: '11'
+
+2018-02-04 19:42:10 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:10 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2018-02-04 19:42:10 DEBUG FromElement:146 - FromClause{level=1} : com.packt.project1.controller.Czynnosc (c) -> czynnosc0_
+2018-02-04 19:42:10 DEBUG FromReferenceNode:60 - Resolved : c -> czynnosc0_.id
+2018-02-04 19:42:10 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2018-02-04 19:42:10 DEBUG HqlSqlWalker:725 - processQuery() :  ( SELECT ( {select clause} czynnosc0_.id ) ( FromClause{level=1} Czynnosc czynnosc0_ ) ( WHERE ( = usluga_id 11 ) ) )
+2018-02-04 19:42:10 DEBUG JoinProcessor:169 - Using FROM fragment [Czynnosc czynnosc0_]
+2018-02-04 19:42:10 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:265 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Czynnosc)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'czynnosc0_.id as id1_0_' {alias=c, className=com.packt.project1.controller.Czynnosc, tableAlias=czynnosc0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'czynnosc0_.kwota as kwota2_0_, czynnosc0_.opis as opis3_0_, czynnosc0_.usluga_id as usluga_i4_0_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[c], fromElementByTableAlias=[czynnosc0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Czynnosc czynnosc0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=c,role=null,tableName=Czynnosc,tableAlias=czynnosc0_,origin=null,columns={,className=com.packt.project1.controller.Czynnosc}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[IDENT] IdentNode: 'usluga_id' {originalText=usluga_id}
+          \-[NUM_INT] LiteralNode: '11'
+
+2018-02-04 19:42:10 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:247 - HQL: SELECT c FROM com.packt.project1.controller.Czynnosc c WHERE usluga_id = 11
+2018-02-04 19:42:10 DEBUG QueryTranslatorImpl:248 - SQL: select czynnosc0_.id as id1_0_, czynnosc0_.kwota as kwota2_0_, czynnosc0_.opis as opis3_0_, czynnosc0_.usluga_id as usluga_i4_0_ from Czynnosc czynnosc0_ where usluga_id=11
+2018-02-04 19:42:10 DEBUG ErrorCounter:95 - throwQueryException() : no errors
+2018-02-04 19:42:10 DEBUG SQL:92 - select czynnosc0_.id as id1_0_, czynnosc0_.kwota as kwota2_0_, czynnosc0_.opis as opis3_0_, czynnosc0_.usluga_id as usluga_i4_0_ from Czynnosc czynnosc0_ where usluga_id=11
+2018-02-04 19:42:10 DEBUG Loader:384 - Result set row: 0
+2018-02-04 19:42:10 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Czynnosc#12]
+2018-02-04 19:42:10 DEBUG Loader:384 - Result set row: 1
+2018-02-04 19:42:10 DEBUG Loader:1520 - Result row: EntityKey[com.packt.project1.controller.Czynnosc#13]
+2018-02-04 19:42:10 DEBUG LogicalConnectionManagedImpl:154 - Initiating JDBC connection release from afterTransaction
+2018-02-04 19:42:12 DEBUG JdbcCoordinatorImpl:177 - HHH000420: Closing un-released batch
+2018-02-04 19:42:12 DEBUG SessionFactoryImpl:731 - HHH000031: Closing
+2018-02-04 19:42:12 DEBUG CascadeStyles:268 - External cascade style regsitration [persist : STYLE_PERSIST] overrode base registration [STYLE_PERSIST_SKIPLAZY]
+2018-02-04 19:42:12 DEBUG AbstractServiceRegistryImpl:389 - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2018-02-04 19:42:12 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/BazaTestowa]
+2018-02-04 19:42:12 DEBUG BootstrapServiceRegistryImpl:286 - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
